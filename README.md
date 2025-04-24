@@ -4,7 +4,7 @@ Welcome to the official repository for my personal portfolio website!
 This project showcases my skills, experience, and work as a **Full-Stack Web Developer** and **Designer**.
 
 ## 🔗 Live Demo
-[View Portfolio](https://your-portfolio-link.com) *(replace with your actual link)*
+[View Portfolio](https://codepen.io/hidinhgy-the-selector/full/zxOmmWY)
 
 ---
 
@@ -41,8 +41,11 @@ This project showcases my skills, experience, and work as a **Full-Stack Web Dev
 
 ## 📸 Screenshots
 
-> *You can add screenshots here showing different sections of your portfolio (home, skills, projects, contact).*
+### Home Section
+![Project Screenshot 1](https://i.postimg.cc/KvjK7BRr/Project1.jpg)
 
+### Skills & Projects
+![Project Screenshot 2](https://i.postimg.cc/zfC3Dkc5/Project2.jpg)
 ---
 
 ## ✍️ Author
