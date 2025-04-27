@@ -17,7 +17,7 @@ This project showcases my skills, experience, and work as a **Full-Stack Web Dev
 - Interactive project showcase gallery
 - Contact section with email, phone, and address
 
-
+---
 
 ## 🛠️ Built With
 
