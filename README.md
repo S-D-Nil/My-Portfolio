@@ -1,7 +1,9 @@
-# S.D.Nil - Personal Portfolio Website
+<div align="center"><h1>S.D.Nil - Personal Portfolio Website</h1><br>
 
 Welcome to the official repository for my personal portfolio website!  
 This project showcases my skills, experience, and work as a **Full-Stack Web Developer** and **Designer**.
+
+</div>
 
 ## 🔗 Live Demo
 [View Portfolio](https://codepen.io/hidinhgy-the-selector/full/zxOmmWY)
@@ -48,7 +50,7 @@ This project showcases my skills, experience, and work as a **Full-Stack Web Dev
 ![Project Screenshot 2](https://i.postimg.cc/zfC3Dkc5/Project2.jpg)
 ---
 
-## ✍️ Author
+<div align="center"><h1>✍️ Author</h1>
 
 **S.D.Nil**  
 Passionate about crafting smooth user experiences and beautiful interfaces.
@@ -57,6 +59,7 @@ Passionate about crafting smooth user experiences and beautiful interfaces.
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_s.d.nil_)  
 [![Codepen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)](https://codepen.io/hidinhgy-the-selector)  
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gamersclub3232@gmail.com)
+</div>
 
 ---
 
