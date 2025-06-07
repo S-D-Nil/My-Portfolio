@@ -34,7 +34,8 @@ This project showcases my skills, experience, and work as a **Full-Stack Web Dev
 ## 🧠 Skills Highlighted
 
 ### Development
-`HTML`, `CSS`, `JavaScript`, `SCSS`, `React`, `Python`, `PHP`, `Bash`, `Java`, `C`, `C++`, `Vue`
+`HTML`, `CSS`, `JavaScript`, `SCSS`, `React`, `Python`, `PHP`, `Bash`, `Java`, `C`, `C++`,`Node.js`,`Typescript`,`Typeswift`,
+`Tailwind`,`Vue`,`Next.js`
 
 ### Design
 `Figma`, `Adobe XD`, `Illustrator`, `Photoshop`
