@@ -6,7 +6,7 @@ This project showcases my skills, experience, and work as a **Full-Stack Web Dev
 </div>
 
 ## 🔗 Live Demo
-[View Portfolio](https://codepen.io/hidinhgy-the-selector/full/zxOmmWY)
+[![View Website](https://img.shields.io/badge/View_Website-Click_Here-blue?style=for-the-badge)](https://my-portfolio-topaz-three-10.vercel.app/)
 
 ---
 
