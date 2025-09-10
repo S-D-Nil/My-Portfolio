@@ -1,15 +1,15 @@
 //Activating Mobile Menu
 
 const showMenu = (toggleId, navId) => {
-    const toggle = document.getElementById(toggleId);
+  const toggle = document.getElementById(toggleId);
 
-    const nav = document.getElementById(navId);
+  const nav = document.getElementById(navId);
 
-    if (toggle && nav) {
-        toggle.addEventListener("click", () => {
-            nav.classList.toggle("show");
-        });
-    }
+  if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  }
 };
 
 showMenu("nav-toggle", "nav-menu");
@@ -19,13 +19,13 @@ showMenu("nav-toggle", "nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
 
 function linkAction() {
-    navLink.forEach((n) => n.classList.remove("active"));
+  navLink.forEach((n) => n.classList.remove("active"));
 
-    this.classList.add("active");
+  this.classList.add("active");
 
-    const navMenu = document.getElementById("nav-menu");
+  const navMenu = document.getElementById("nav-menu");
 
-    navMenu.classList.remove("show");
+  navMenu.classList.remove("show");
 }
 
 navLink.forEach((n) => n.addEventListener("click", linkAction));
@@ -37,37 +37,37 @@ const sections = document.querySelectorAll("section[id]");
 window.addEventListener("scroll", scrollActive);
 
 function scrollActive() {
-    const scrollY = window.pageYOffset;
+  const scrollY = window.pageYOffset;
 
-    sections.forEach((current) => {
-        const sectionHeight = current.offsetHeight;
+  sections.forEach((current) => {
+    const sectionHeight = current.offsetHeight;
 
-        const sectionTop = current.offsetTop - 50;
+    const sectionTop = current.offsetTop - 50;
 
-        const sectionId = current.getAttribute("id");
+    const sectionId = current.getAttribute("id");
 
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document
-                .querySelector(".nav-menu a[href*=" + sectionId + "]")
-                .classList.add("active");
-        } else {
-            document
-                .querySelector(".nav-menu a[href*=" + sectionId + "]")
-                .classList.remove("active");
-        }
-    });
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      document
+        .querySelector(".nav-menu a[href*=" + sectionId + "]")
+        .classList.add("active");
+    } else {
+      document
+        .querySelector(".nav-menu a[href*=" + sectionId + "]")
+        .classList.remove("active");
+    }
+  });
 }
 
 // Scroll Reveal Settings
 
 const sr = ScrollReveal({
-    origin: "top",
+  origin: "top",
 
-    distance: "80px",
+  distance: "80px",
 
-    duration: 2000,
+  duration: 2000,
 
-    reset: true
+  reset: true
 });
 
 sr.reveal(".home-title", {});
@@ -84,7 +84,7 @@ sr.reveal(".about-profession", { delay: 400 });
 
 sr.reveal(".about-text", { delay: 500 });
 
-sr.reveal(".about-social-icon", { delay: 600, interval: 200 });
+sr.reveal(".about-social-icon", { delay: 300, interval: 200 });
 
 sr.reveal(".skills-subtitle", {});
 
@@ -92,6 +92,7 @@ sr.reveal(".skills-name", { distance: "20px", delay: 50, interval: 100 });
 
 sr.reveal(".skills-img", { delay: 400 });
 
+sr.reveal(".webproject", { interval: 200 });
 sr.reveal(".portfolio-img", { interval: 200 });
 
 sr.reveal(".contact-subtitle", {});
@@ -102,9 +103,9 @@ sr.reveal(".contact-input", { delay: 400 });
 
 sr.reveal(".contact-button", { delay: 600 });
 document.addEventListener("DOMContentLoaded", function () {
-    // Welcome message
+  // Welcome message
 
-    alert(
-        "Welcome to Portfolio website by S.D.Nil. Feel free to DM in @_s.d.nil_ for any question."
-    );
+  alert(
+    "Welcome to Portfolio website idea by S.D.Nil. If it's helpful for you, then give a like! If you need any help feel free to DM in @_s.d.nil_.Insta link in bio."
+  );
 });
