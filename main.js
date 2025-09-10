@@ -106,6 +106,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Welcome message
 
   alert(
-    "Welcome to Portfolio website idea by S.D.Nil. If it's helpful for you, then give a like! If you need any help feel free to DM in @_s.d.nil_.Insta link in bio."
+    "Welcome to the personal Portfolio website of S.D.Nil. Feel free to DM in @_s.d.nil_ for any question."
   );
 });
