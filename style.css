@@ -631,8 +631,8 @@ img {
 
 .webproject{
   position: relative;
-  height: 330px;
-  width: 400px;
+  height: 300px;
+  width: 350px;
 
 	display: flex;
 
@@ -645,7 +645,7 @@ img {
 .webproject-img{
   position: absolute;
   top: 5px;
-  height: 250px;
+  height: 220px;
   width: 390px;
   border-radius: 10px;
 }
