@@ -109,13 +109,22 @@ document.addEventListener("DOMContentLoaded", function () {
     "Welcome to the personal Portfolio website of S.D.Nil. Feel free to DM in @_s.d.nil_ for any question."
   );
 });
-function sendMail(){
-  let parms = {
-    name : document.getelementById("name").value,
-    email : document.getelementById("email").value,
-    subject : document.getelementById("subject").value,
-    message : document.getelementById("message").value,
-  }
+function sendMail() {
+  let params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
+  };
 
-  emailjs.send("service_yihlc4z","template_xcs0hk8",parms).then(alert("Sent Email!"))
-}
+  emailjs
+    .send("service_yihlc4z", "template_xcs0hk8", params)
+    .then(
+      function () {
+        alert("Sent Email!");
+      },
+      function (error) {
+        alert("Failed to send email: " + error.text);
+      }
+    );
+  }
