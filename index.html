@@ -349,20 +349,20 @@
 
         </div>
 
-        <form action="" class="contact-form">
+        <form action="" class="contact-form" action="https://formsubmit.co/gamersclub3232@gmail.com" method="POST">
 
           <div class="contact-inputs">
 
-            <input type="text" placeholder="Name" id="name" class="contact-input">
+            <input type="text" placeholder="Name" name="name" id="name" class="contact-input" required/>
 
-            <input type="email" placeholder="Email" id="email" class="contact-input">
+            <input type="email" placeholder="Email" name="email" id="email" class="contact-input" required/>
 
-            <input type="text" placeholder="subject" id="subject" class="contact-input">
+            <input type="text" placeholder="subject" name="subject" id="subject" class="contact-input">
 
 
           </div>
 
-          <textarea name="message" placeholder="message" id="message" cols="0" rows="10" class="contact-input"></textarea>
+          <textarea name="message" placeholder="message" name="message" id="message" cols="0" rows="10" class="contact-input"></textarea>
 
           <input type="submit" value="Send" onclick="sendMail()" class="contact-button">
 
