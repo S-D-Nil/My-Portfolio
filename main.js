@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Welcome message
 
   alert(
-    "Welcome to the personal Portfolio website of S.D.Nil. Feel free to DM in @_s.d.nil_ for any question."
+    "Welcome to the personal Portfolio website of S.D.Nil. Feel free to DM for any question."
   );
 });
 function sendMail() {
