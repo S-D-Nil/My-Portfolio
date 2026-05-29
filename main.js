@@ -103,13 +103,11 @@ sr.reveal(".contact-input", { delay: 400 });
 
 sr.reveal(".contact-button", { delay: 600 });
 document.addEventListener("DOMContentLoaded", function () {
-  // Welcome message
-
   alert(
     "Welcome to the personal Portfolio website of S.D.Nil. Feel free to DM for any question."
   );
 });
-function sendMail() {
+  function sendMail() {
   let params = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,

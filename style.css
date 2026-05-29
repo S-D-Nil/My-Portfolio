@@ -280,9 +280,10 @@ img {
   right: 0;
 
   bottom: 0;
-  
-  width: 295px;
-  
+
+  width: 300px;
+  max-height: 650px;
+
 }
 
 /*ABOUT*/
@@ -629,76 +630,78 @@ img {
   }
 }
 
-.webproject{
+.webproject {
   position: relative;
-  height: 300px;
-  width: 350px;
-
-	display: flex;
-
-	justify-content: center;
-
-	align-items: center;
+  height: 350px;
+  width: 100%;
+  justify-items: center;
+  row-gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #5361ff;
   border-radius: 10px;
+  overflow: hidden;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 2rem;
 }
-.webproject-img{
+
+.webproject-img {
   position: absolute;
   top: 5px;
-  height: 220px;
-  width: 390px;
+  height: 270px;
+  width: 98%;
   border-radius: 10px;
 }
-.viewproject{
+
+.viewproject {
   display: flex;
-
-	justify-content: center;
-
-	align-items: center;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   background-color: black;
-
   position: absolute;
-
-  bottom: 5px;
-  left: 40px;
-
+  bottom: 8px;
+  left: 20px;
   height: 30px;
-
-  width: 120px;
-
+  width: 35%;
   border-radius: 10px;
-
+  font-size: 80%;
+  overflow: hidden;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
-.project-name{
+
+.project-name {
   position: absolute;
   bottom: 35px;
-  left:10px;
+  left: 10px;
   font-size: 1.5rem;
   color: black;
 }
-.source-code{
 
+.source-code {
   display: flex;
-
-	justify-content: center;
-
-	align-items: center;
-
+  justify-content: center;
+  align-items: center;
   color: #fff;
-
   background-color: black;
-
   position: absolute;
-
-  bottom: 5px;
-
-  right: 40px;
-
+  bottom: 8px;
+  right: 25px;
   height: 30px;
-
-  width: 120px;
-
+  width: 35%;
   border-radius: 10px;
+  font-size: 80%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  overflow: hidden;
+}
 
-      }
+#githubicon {
+  display: flex;
+  font-size: 100%;
+  justify-content: center;
+  align-items: center;
+}
