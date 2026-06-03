@@ -1,0 +1,35 @@
+# S.D.Nil — Full Stack Web Developer
+
+> Personal portfolio of S.D.Nil, a Full Stack Web Developer and UI/UX Designer based in Chattogram, Bangladesh. Specializes in building responsive, animated, and interactive web experiences.
+
+## About
+
+S.D.Nil is a passionate full-stack developer and designer focused on crafting visually appealing, user-friendly websites. With expertise spanning front-end and back-end technologies, S.D.Nil brings both design sensibility and engineering capability to every project.
+
+## Skills
+
+### Development
+HTML, CSS, JavaScript, SCSS, React, Next.js, Vue, Node.js, TypeScript, Tailwind CSS, Python, PHP, Java, C, C++, Bash
+
+### Design
+Figma, Adobe XD, Adobe Illustrator, Photoshop
+
+## Projects
+
+- Do You Love Me? — Interactive web experience: https://do-you-love-me-d.vercel.app/
+- I Love You Animation — CSS/JS animation project: https://l-love-you-animation-nil.vercel.app/
+- Tree Of Love — Visual web project: https://tree-of-love-nil.vercel.app/
+- ToDo List App — Task management web app: https://to-do-list-app-nil.vercel.app/
+
+## Contact
+
+- Email: gamersclub3232@gmail.com
+- GitHub: https://github.com/S-D-Nil
+- Instagram: https://www.instagram.com/_s.d.nil_
+- Facebook: https://www.facebook.com/share/15ZjjcF7VE/
+- Location: Lalkhan Bazar, Chattogram, Bangladesh
+
+## More Information
+
+- Portfolio: https://sdnilportfolio.vercel.app/
+- Sitemap: https://sdnilportfolio.vercel.app/sitemap.xml
