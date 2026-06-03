@@ -18,6 +18,7 @@ This project showcases my skills, experience, and work as a **Full-Stack Web Dev
 - Skillset highlights in **development** and **design**
 - Interactive project showcase gallery
 - Contact section with email, phone, and address
+- Backend contact form with email sending
 
 ---
 
@@ -67,7 +68,6 @@ Passionate about crafting smooth user experiences and beautiful interfaces.
 ## 💡 Future Improvements
 
 - Add dark mode support
-- Create a backend contact form with email sending
 - Enhance project modals with full descriptions
 - Improve accessibility and SEO metadata
 
