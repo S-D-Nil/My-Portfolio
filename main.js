@@ -63,7 +63,7 @@ function scrollActive() {
 const sr = ScrollReveal({
   origin: "top",
 
-  distance: "80px",
+  distance: "100px",
 
   duration: 2000,
 
@@ -104,7 +104,7 @@ sr.reveal(".contact-input", { delay: 400 });
 sr.reveal(".contact-button", { delay: 600 });
 document.addEventListener("DOMContentLoaded", function () {
   alert(
-    "Welcome to the personal Portfolio website of S.D.Nil. Feel free to DM for any question."
+    "Welcome to the personal Portfolio website of S.D.Nil. Feel free to DM."
   );
 });
   function sendMail() {
