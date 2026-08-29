@@ -279,8 +279,8 @@ img {
 
   bottom: 0;
 
-  width: 350px;
-  max-height: 550px;
+  width: 290px;
+  max-height: 650px;
 
 }
 
@@ -576,6 +576,7 @@ img {
 
   .home-img {
     width: 524px;
+    max-height: 850px;
     right: 10%;
   }
 
