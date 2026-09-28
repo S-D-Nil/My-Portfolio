@@ -93,7 +93,7 @@ sr.reveal(".skills-name", { distance: "20px", delay: 50, interval: 100 });
 
 sr.reveal(".skills-img", { delay: 200 });
 
-sr.reveal(".webproject", { interval: 200, duration: 3000 });
+sr.reveal(".webproject", { interval: 200, duration: 2000 });
 
 sr.reveal(".portfolio-img", { interval: 200, delay: 200, origin: "bottom", reset: false,duration: 3000 });
 
